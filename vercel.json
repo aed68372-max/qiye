@@ -1,0 +1,13 @@
+{
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "outputDirectory": "dist",
+    "installCommand": "npm install",
+    "buildCommand": "npm run build"
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
